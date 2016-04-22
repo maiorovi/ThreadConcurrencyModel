@@ -1,9 +1,7 @@
 package chapter1.exception;
 
-/**
- * Created by Egor on 17.04.2016.
- */
 public class ExceptionHandler implements Thread.UncaughtExceptionHandler {
+
     @Override
     public void uncaughtException(Thread t, Throwable e) {
         System.out.printf("An exception has been captured\n");
