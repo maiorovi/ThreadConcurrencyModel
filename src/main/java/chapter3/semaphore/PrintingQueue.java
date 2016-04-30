@@ -5,7 +5,6 @@ import java.util.concurrent.Semaphore;
 public class PrintingQueue {
     private Semaphore semaphore;
 
-
     public PrintingQueue() {
         semaphore = new Semaphore(1);
     }
